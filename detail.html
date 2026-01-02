@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+    </head>
+    <body style="text-align:center;">
+        <a href="index.html">Home</a> |
+        <a href="login.html">Login</a> | 
+        <a href="contact.html">Contact</a> | 
+        <a href="about.html">About</a>
+        <hr/>
+        <h1>Information Us For </h1>
+        <h4>Ajay Kale Graphics</h4>
+        <hr/>
+        <input id="username" type="text" value="Ajay Kale"><br/>
+        <input id="location" type="text" value="chh sambhajinagar"><br/>
+        <button onclick="onButtonClickkk()">Show detail</button>
+        <p id="parausername"> Starting Information</p>
+        <!-- <input id="updateusername" type="text" value="sambhajinagar">
+        <button onclick="updateButton1()">update</button> -->
+        <p id="paralocation"> Starting Information</p>
+        <!-- <input id="updatelocation" type="text" value="sambhajinagar">
+        <button onclick="updateButton2()">update</button> -->
+        <script>  
+                var onButtonClickkk = function(){
+                    var txtElement = document.getElementById("username"); 
+                    var data = txtElement.value; 
+                    var txtElement1 = document.getElementById("location"); 
+                    var data1 = txtElement1.value;
+                    var paraElement = document.getElementById("parausername");
+                    paraElement.innerHTML = data; 
+                    var paraElement1 = document.getElementById("paralocation"); 
+                    paraElement1.innerHTML = data1; 
+                }
+                /*var updateButton1 = function(){
+                    var newValue = document.getElementById("updateusername").value;
+                    document.getElementById("parausername").innerHTML = newValue;
+                }
+                var updateButton2 = function(){
+                    var newValue = document.getElementById("updatelocation").value;
+                    document.getElementById("paralocation").innerHTML = newValue;
+                }*/
+            /*var onButtonClickkk = function(){
+                var txtElement = document.getElementById("username");
+                var data = txtElement.value;
+                var txtElement1 = document.getElementById("location");
+                var data1 = txtElement1.value;
+                var paraElement = document.getElementById("parausername");
+                paraElement.innerHTML = data;
+                var paraElement1 = document.getElementById("paralocation");
+                paraElement1.innerHTML = data1;
+            }*/
+    </script>
+    </body>
+</html>

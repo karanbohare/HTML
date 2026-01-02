@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact for Graphics Design
+        </title>
+    </head>
+    <body style="text-align:center;">
+        <a href="index.html">Home</a> |
+        <a href="login.html">Login</a> | 
+        <a href="contact.html">Contact</a> | 
+        <a href="about.html">About</a>
+        <hr/>
+        <h1>Contact Us For </h1>
+        <h4>Karan Rajput Graphics</h4>
+        <hr/>
+        <p id="para1"><u>this page is contact us page</u></p>
+        <p id="para2"><mark> paragram line is send</mark></p>
+        <small>Small text</small><br/>
+        x<sup>2</sup>H<sub>2</sub>O<br>
+        <dl>
+            <dt>HTML</dt>
+            <dd>This is a Markup language</dd>
+        </dl><br>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>20</td>
+            </tr>
+        </table><br>
+
+        <form>
+            <input type="text"><br>
+            <input type="text"><br>
+            <input type="password"><br>
+            <input type="email"><br>
+            <input type="number"><br>
+            <input type="checkbox"><br>
+            <input type="radio"><br>
+        </form>
+
+        <textarea></textarea><br>
+        <select>
+            <option>India</option>
+            <option>USA</option>
+        </select><br>
+        <nav>Menu</nav>
+        <aside>Sidebar</aside>
+
+        <input type="submit"><br>
+        <!-- dynamically changes html contant using button -->
+        <button onclick="onButtonClikk()">Change's</button>
+        <script>
+            var onButtonClikk = function(){
+                alert("button pressed....");
+                var element = document.getElementById("para2");
+                element.innerHTML = "Welcome in contact.html page"
+            }
+        </script><br>
+        <span>Inline</span><br>
+        <details>
+            <summary>More</summary>
+            Info here
+        </details><br>
+        <progress value="50" max="100"></progress><br>
+        <div style="background-color: rgba(214, 179, 207, 0.37); padding: 30px;">
+            <h1>This is a styled div</h1>
+        </div>
+
+
+
+
+
+        
+    </body>
+</html>
